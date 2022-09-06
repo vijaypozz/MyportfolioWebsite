@@ -3,7 +3,7 @@ import './Projects.css';
 
 
 
-// import Projectitem from './project-item';
+import Projectitem from './Projectitem';
 
 
 
@@ -64,12 +64,7 @@ class Projects extends React.Component {
         <div className='directory-project'>
 
 
-        //   {
-
-        //     this.state.sections.map(({ title, linkUrl, info, id }) => (
-        //       <Projectitem key={id} title={title} linkUrl={linkUrl} info={info} />
-        //     ))
-          }
+       <Projectitem/>
 
         </div>
 
